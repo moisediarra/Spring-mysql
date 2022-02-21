@@ -1,11 +1,11 @@
 package com.diarradev.springdev.springboot.api.controller;
-import com.diarradev.springdev.springboot.api.dao.TicketDao;
-import com.diarradev.springdev.springboot.api.model.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.diarradev.springdev.springboot.api.dao.TicketDao;
+import com.diarradev.springdev.springboot.api.model.Ticket;
 
 import java.util.List;
 
